@@ -21,8 +21,8 @@ Each studnet record contains:
 ### 1. Data Preprocessing
 - Handle missing values
 - One-hot/ordinal encoding for categorial variables
-- Normalize features using 'StandardScaler'
+- Normalize features using `StandardScaler`
 
 ### 2. Feature Engineering
 New features were engineered on the scaled data to better represent student behavior patterns and enhance model performance:
-- 'total_screen_time'
+- `total_screen_time`
