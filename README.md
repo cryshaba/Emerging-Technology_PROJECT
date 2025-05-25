@@ -26,3 +26,5 @@ Each studnet record contains:
 ### 2. Feature Engineering
 New features were engineered on the scaled data to better represent student behavior patterns and enhance model performance:
 - `total_screen_time`
+    - Computed as the sum of `social_media_hours` and `netflix_hours`.
+
