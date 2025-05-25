@@ -54,3 +54,25 @@ New features were engineered on the scaled data to better represent student beha
 - Visualized clusters using PCA for 2D representation with distinct color coding
 - Compared exam scores across clusters using box plots, showing performance differences by lifestyle group
 
+### 5. Regression Analysis (Supervised Learning)
+The regression models used the scaled features to predict the scaled exam_score.
+- Linear Regression
+    - Mean R² (5-fold CV): 0.90
+    - Mean MAE: 0.25
+    - Mean RMSE: 0.32
+- Decision Tree Regressor
+    - Mean R² (5-fold CV): 0.71
+    - Mean MAE: 0.41
+    - Mean RMSE: 0.53
+- Random Forest Regressor
+    - Mean R² (5-fold CV): 0.87
+    - Mean MAE: 0.28
+    - Mean RMSE: 0.35
+
+
+
+
+
+
+
+### 6. Classification Modeling
