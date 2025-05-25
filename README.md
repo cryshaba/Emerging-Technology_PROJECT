@@ -37,5 +37,20 @@ New features were engineered on the scaled data to better represent student beha
     - Derived by adding together `exercise_frequency`, `mental_health_rating`, and `sleep_hours`.
     - Aims to capture overall wellness that may influence academic consistency and focus.
 
+### 3. Exploratory Data Analysis 
+- Explored data using histograms, scatter plots, box plots, and correlation heatmaps
+- Strong positive correlations with exam score: study_hours_per_day, mental_health_rating, productive_hours
+- Slight negative correlation with exam score: total_screen_time
 
+### 4. Clustering (K-Means)
+- Applied K-Means clustering on lifestyle features (excluding exam scores)
+- Determined optimal cluster count using:
+  - Elbow method (inertia plot) suggested 3 clusters
+  - Silhouette scores confirmed 3 clusters with best balance
+- Labeled clusters as:
+    - High Screen & Low Sleep
+    - Balanced & High Efficiency
+    - Well-Rested & Active
+- Visualized clusters using PCA for 2D representation with distinct color coding
+- Compared exam scores across clusters using box plots, showing performance differences by lifestyle group
 
