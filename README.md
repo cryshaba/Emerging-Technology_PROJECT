@@ -29,11 +29,11 @@ New features were engineered on the scaled data to better represent student beha
     - Computed as the sum of `social_media_hours` and `netflix_hours`.
     - Designed to quantify total leisure-based screen exposure, which may affect sleep or study focus.
 
--`study_efficiency`
+- `study_efficiency`
     - Calculated by summing `study_hours_per_day` and `attendance_percentage`.
     - Represents a combined indicator of time invested and classroom engagement.
 
--`total_well-being`
+- `total_well-being`
     - Derived by adding together `exercise_frequency`, `mental_health_rating`, and `sleep_hours`.
     - Aims to capture overall wellness that may influence academic consistency and focus.
 
