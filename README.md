@@ -5,7 +5,7 @@
 
 ### 👥 Group Members
 - **Ma. Charina O. Gavica**
-- **Ma. Cristinaa F. Jara**
+- **Ma. Cristina F. Jara**
 - **Khryzelle Trisha L. Suyat**
 
 ---
